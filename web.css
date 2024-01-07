@@ -1,0 +1,109 @@
+body {margin:0;}
+
+div {
+	list-style-type: none;
+	margin:0;
+    padding: 0px 15px;
+	top:0;
+    overflow: hidden;
+    background-color: #333;
+    position: static;
+    
+    width: 100%;
+
+	    
+}
+
+span {
+    float: left;
+}
+
+span a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: salmon;
+}
+
+span a:hover {
+            background-color:#0F9;
+}
+#lawsheet {
+    ruby-align: center;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgb(88, 208, 224);
+    border-spacing: 10px;   
+}
+th {
+    background-color: rgb(196, 231, 243);
+    margin: 20px;
+    border: 2px solid black;
+}
+
+td {
+    background-color: rgb(138, 241, 169);
+    margin: 20px;
+    border: 2px solid black;
+}
+h2, h3, li, p{
+    margin-left: 20px;
+
+}
+
+input { 
+   
+    margin-left: 10px 10px;
+    width: 200px;
+    display: block;
+    border-radius: 4px;
+}
+
+label {
+    margin-right: 1px;
+    vertical-align: top;
+    display: inline-block;
+}
+fieldset{
+    border: none;
+    background-color: lightblue;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+ .lcbox{
+    display: block;
+    margin-bottom: 0px;
+    
+}
+
+.cbox {
+    width: 10%;
+    font-display: inline-flex;
+    margin-left: 10px;
+    
+}
+input[type="checkbox"] {
+    display: inline-flex;
+    
+}
+input[type="submit"] {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(61, 61, 253);
+    color: white;
+    margin-left: 300px;
+    
+}
+.tutorials {
+    margin: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+audio {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 400px;
+}

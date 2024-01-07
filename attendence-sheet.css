@@ -1,0 +1,78 @@
+body {margin:0;}
+
+ul {
+	list-style-type: none;
+
+	margin:0;
+    padding: 0px 15px;
+	top:0;
+    overflow: hidden;
+    background-color: #333;
+    position: static;
+    
+    width: 100%;
+
+	    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: salmon;
+}
+
+li a:hover {
+            background-color:#0F9;
+}
+
+#attendencesheet{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 10px;
+}
+
+#cah {
+    color: #333;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#attendencesheet {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+th, td  {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    
+}
+
+p {
+    margin-top: 20px;
+    color: #333;
+}
+input:hover{
+    background-color: rgb(133, 225, 248)
+    
+
+}
